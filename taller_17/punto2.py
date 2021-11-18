@@ -33,3 +33,18 @@ Sp2 = numerador / denominador
 Sp = np.sqrt(Sp2)
 print('Sp² = ' + str(round(Sp2,2)))
 print('Sp = ' + str(round(Sp,2)))
+
+X = (media_A - media_B)
+print('X1 - X2 = ' + str(round(X, 3)))
+S1_S2 = (varianza_A/n_A)+ (varianza_B/n_B)
+print('S1²/n+S2²/m = ' + str(round(S1_S2, 3)))
+# se calcula el error estandar
+error_estandar = np.sqrt(S1_S2)
+print('ee = ' + str(round(error_estandar, 3)))
+# se calcula el error maximo de estimacion
+# t = 2.131 sale de la table de distribuciones
+error_maximo_estimacion = 2.131 * error_estandar
+print('e = ' + str(round(error_maximo_estimacion, 3)))
+# # se calcula los intervalos de confianza
+intervalos_confianza= [ str(round(X - error_maximo_estimacion, 4)), str(round(X + error_maximo_estimacion, 4)) ]
+print('Intervalo de Confianza = ' + str(intervalos_confianza))
