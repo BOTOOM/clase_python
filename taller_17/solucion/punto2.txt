@@ -1,0 +1,24 @@
+  Empresa A    Empresa B
+-----------  -----------
+         11           10
+         12            9
+         10            8
+          9           15
+          8           14
+         13           12
+         14           11
+         15           13
+                      15
+
+
+            Empresa A    Empresa B
+--------  -----------  -----------
+Media            11.5        11.89
+Varianza          6           6.61
+n                 8           9
+
+
+Numerador = 94.88
+Denominador = 15
+Sp² = 6.33
+Sp = 2.52
