@@ -1,0 +1,10 @@
+Numerador = 0.0019455621657352325
+Denominador = 8.85242961660958e-06
+Sp² = 219.777
+Sp² redondeado = 220.0
+Sp = 14.825
+X1 - X2 = -16.0
+S1²/n+S2²/m = 0.044
+ee = 0.21
+e = 0.414
+Intervalo de Confianza = ['-16.414', '-15.586']
